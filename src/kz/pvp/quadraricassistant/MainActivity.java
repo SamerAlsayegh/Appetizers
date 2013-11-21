@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
 	// Hello!
 	// Another line! 
 	// Last line
-	// Hey there Samer
+	// Hey there Samer    : P 
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
