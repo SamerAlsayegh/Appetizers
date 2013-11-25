@@ -6,33 +6,42 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+	android:background="@drawable/background_main"
     tools:context=".MainActivity" >
-
-    <Button
-        android:id="@+id/calculate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="56dp"
-        android:text="@string/calculate" />
-
-    <Button
-        android:id="@+id/about_us"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/button1"
-        android:layout_marginBottom="36dp"
-        android:text="@string/about_us" />
 
     <Button
         android:id="@+id/instructions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/Button01"
+        android:layout_above="@+id/about_us"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="88dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/round_button"
         android:text="@string/instructions" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/instructions"
+        android:background="@drawable/round_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        
+        android:text="@string/calculate"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/about_us"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/calculate"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/round_button"
+        android:radius="50dp"
+        android:text="@string/about_us"
+        android:textSize="25sp" />
 
 </RelativeLayout>
