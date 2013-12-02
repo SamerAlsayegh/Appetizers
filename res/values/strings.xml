@@ -6,5 +6,12 @@
     <string name="calculate">Calculate</string>
     <string name="about_us">About us</string>
     <string name="instructions">Instructions</string>
+    <string name="title_activity_choice_menu">ChoiceMenu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_calculation_list">CalculationList</string>
+    <string name="title_activity_calculations">Calculations</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
 
 </resources>

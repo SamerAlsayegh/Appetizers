@@ -22,6 +22,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="kz.pvp.quadraricassistant.ChoiceMenu"
+            android:label="@string/title_activity_choice_menu" >
+        </activity>
+        <activity
+            android:name="kz.pvp.quadraricassistant.CalculationListActivity"
+            android:label="@string/title_activity_calculation_list" >
+        </activity>
+        <activity
+            android:name="kz.pvp.quadraricassistant.CalculationsActivity"
+            android:label="@string/title_activity_calculations" >
+        </activity>
+        <activity
+            android:name="kz.pvp.quadraricassistant.Calculations"
+            android:label="@string/title_activity_calculations" >
+        </activity>
     </application>
 
 </manifest>
