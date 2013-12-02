@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >    
     <!-- "background shadow" -->
-    <item        android:bottom="3px"
+    <item
+        android:bottom="3px"
         android:left="3px"
         android:right="3px"
         android:top="3px">
@@ -12,6 +13,14 @@
             <corners android:radius="8dp" />
         </shape>
     </item>
+    
+    <item android:drawable="@drawable/round_button_clicked"
+          android:state_pressed="true"/>
+    <item android:drawable="@drawable/round_button_focused"
+          android:state_focused="true"/>
+    
+    
+    
     
         <item>
         <shape android:shape="oval" >
